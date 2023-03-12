@@ -950,6 +950,31 @@ a:focus {
 }
 
 
+.pagination {
+    margin-top: -15px;
+    margin-bottom: 28px;
+}
+
+.page-link {
+    color: var(--secondary);
+}
+
+
+.commitment {
+    font-style: italic;
+}
+
+.image {
+    width: 100%;
+    margin: 10px auto;
+    transition: 0.2s;
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+
 
 .highlight {
     font-weight: 500;
@@ -1076,8 +1101,12 @@ span.advt-text::after {
     }
 }
 
+.service-list > img {
+    width: 24px;
+}
 
-.safety-list {
+
+.safety-list, .service-list {
     display: flex;
     gap: 15px;
     align-items: start;
