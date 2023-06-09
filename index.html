@@ -6,6 +6,9 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
+        <meta content="#ffffff" name="theme-color">
+        <!-- Manifest File -->
+        <link rel="manifest" href="manifest.json" />
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -485,6 +488,14 @@
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
+
+        <!-- ServiceWorker Registration -->
+        <script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+              navigator.serviceWorker.register('sw.js')
+            }
+        </script>
+          
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
